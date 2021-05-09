@@ -1,0 +1,184 @@
+*{
+	box-sizing:border-box;
+	max-width:1200px;
+	text-align:center;
+}
+
+body{
+	font-family: Helvetica;
+	font-size:100%;
+	background-color:beige;
+	min-width: 640px;
+	text-align:center;
+}
+
+h1{
+	font-family:georgia;
+	color:green;
+}
+
+img {
+	margin:20px 0;
+}
+
+/*button*/
+[type=submit], [type=reset], [type=button]{
+	box-sizing: content-box;
+	color: white;
+    background-color: green;
+    font-weight: bold;
+    height: 40px;
+	font-size:16px;
+	box-shadow: 5px 5px 5px gray;
+	text-align: center;
+}
+
+
+ul{
+	list-style-type:none;
+}
+
+b{
+	color:green;
+}
+
+input{
+	margin-top:5px;
+	;
+}
+
+[type=text],[type=password]{
+	height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+footer {
+   position:fixed;
+   bottom:0;
+   width:98%;
+   height:25px;
+}
+
+#sadrzaj{
+	background-color: white;
+	height: 300px;
+	padding:15px;
+	margin:auto;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#pitanja{
+	float:left;
+	width:30%;
+	text-align: left;
+}
+
+#linkovi{
+	float:left;
+	width:30%;
+	text-align: center;
+}
+
+#rezultati{
+	float:left;
+	width:30%;
+	text-align: center;
+}
+
+#sadrzajodg{
+	float:left;
+	background-color: white;
+	height: 300px;
+	padding:15px;
+	margin:auto;
+	margin-bottom:30px;
+	text-align: center;
+	width:45%;
+}
+
+#postaviodg{
+	margin-bottom:30px;
+}
+
+#dodatneopcije{
+	float:left;
+	height: 300px;
+	padding:15px;
+	margin:auto;
+	margin-bottom:30px;
+	width:45%;
+}
+
+#odgovori{
+	float:left;
+	width:50%;
+	text-align: center;
+}
+
+#tocninetocni{
+	float:left;
+	width:50%;
+	text-align: center;
+}
+
+#ponodg{
+	float:left;
+	width:50%;
+	text-align: center;
+	margin-bottom:15px;
+	border-bottom-style:solid;
+}
+
+#tocan{
+	float:left;
+	width:50%;
+	text-align: center;
+	margin-bottom:15px;
+	border-bottom-style:solid;
+}
+
+#korisnici{
+	float:left;
+	width:50%;
+	text-align: center;
+}
+
+#odgovoreni{
+	float:left;
+	width:50%;
+	text-align: center;
+}
+
+#nazad{
+	margin-bottom:30px;
+}
+
+#progressbari{
+	width:50%;
+}
+
+.Poveznica{
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.Rezultati{
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-2"/>
+	<title>Prijava</title>
+	<link rel="stylesheet" type="text/css" href="dodaci/style.css">
+	<script src="dodaci/skripta.js">&nbsp;</script>
+</head>
+	<body>
+
+	<img src="http://www.netakademija.hr/wp-content/uploads/2015/05/tvz-plavi.png" alt="Tehničko Veleučilite u Zagrebu"/>
+
+<form action="registracija.php" enctype="multipart/form-data" method="post">
+	<ul>
+		<li><label>E-pota: <input type="email" name="eposta" required/></label></li>
+		<li><label>Korisničko ime: <input type="text" name="korisnik" required/></label></li>
+		<li><label>Vaa lozinka: <input type="password" name="lozinka" id="lozinka" required/></label></li>
+		<li><label>Ponovite lozinku: <input type="password" name="lozinka_isp" id="lozinka_isp" required/></label></li>
+	</ul>
+	<input type="submit" onclick="lozinka_prov(event)" value="Upii se!"/>
+	<p id="lozinka_upoz"></p>
+</form>
+
+	<footer>Fantastična Četvorka copyright 1995.-2017.</footer>
+</body>
